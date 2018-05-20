@@ -5,7 +5,7 @@
 </template>
 <script>
 export default{
-  name: 'Homeeeqqqqqqqq'
+  name: 'Home'
 }
 </script>
 <style>
