@@ -23,7 +23,7 @@ export default{
  .header
   display: flex
   line-height: .86rem
-  background: #00bcd4
+  background: $bgColor
   color: #fff
   .header-left
    width: .64rem
@@ -47,5 +47,5 @@ export default{
    text-align: center
   .arrow-icon
    font-size: .24rem
-   margin-left: .04rem
+   margin-left: -.04rem
   </style>
