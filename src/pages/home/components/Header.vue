@@ -10,8 +10,8 @@
   <div class="header-right">
     城市
     <span class="iconfont arrow-icon">&#xe64a;</span>
-    </div>
-</div>
+  </div>
+  </div>
 </template>
 <script>
 export default{
@@ -48,4 +48,4 @@ export default{
   .arrow-icon
    margin-left: -.04rem
    font-size: .24rem
-</style>
+  </style>
