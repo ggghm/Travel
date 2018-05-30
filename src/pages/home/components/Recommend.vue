@@ -2,7 +2,7 @@
   <div>
     <div class="title">猜你喜欢</div>
     <ul>
-      <li class="item border-bottom" v-for="item of recommendList" :key="item.id">
+      <li class="item border-bottom" v-for="item of list" :key="item.id">
         <img class="item-img" :src="item.imgUrl" />
         <div class="item-info">
           <p class="item-title">{{item.title}}</p>
@@ -16,26 +16,8 @@
 <script>
 export default {
   name: 'HomeWeekend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1705/ed/edd4063a442f30c1a3.img.jpg_200x200_724f9e6a.jpg',
-        title: '北京欢乐谷',
-        desc: '近期小伙伴们收藏最！多！的景点😊'
-      }, {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1705/ed/edd4063a442f30c1a3.img.jpg_200x200_724f9e6a.jpg',
-        title: '北京欢乐谷',
-        desc: '近期小伙伴们收藏最！多！的景点😊'
-      }, {
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1705/ed/edd4063a442f30c1a3.img.jpg_200x200_724f9e6a.jpg',
-        title: '北京欢乐谷',
-        desc: '近期小伙伴们收藏最！多！的景点😊'
-      }
-      ]
-    }
+  props: {
+    list: Array
   }
 }
 </script>
