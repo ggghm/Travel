@@ -25,4 +25,3 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
-123456
